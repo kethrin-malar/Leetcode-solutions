@@ -11,12 +11,12 @@ public class TruncateSentence {
 			res=res+arr[i]+" ";
 		}
 				
-		return res.trim();		
+		return res.trim();	//removes all the leading and trailing spaces in the string. 	
 
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		String s = "Hello how are you Contestant";
         int k = 4;
         TruncateSentence obj = new TruncateSentence();
